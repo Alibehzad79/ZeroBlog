@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('../parastoo-font-v2.0.1/web/');
+    src: url('../parastoo-font-v2.0.1/web/?#iefix') format('embedded-opentype'),
+         url('../parastoo-font-v2.0.1/web/Parastoo.woff2') format('woff2'),
+         url('../parastoo-font-v2.0.1/web/Parastoo.woff') format('woff'),
+         url('../parastoo-font-v2.0.1/web/Parastoo.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Parastoo;
+    src: url('../parastoo-font-v2.0.1/web/Parastoo-Bold.eot');
+    src: url('../parastoo-font-v2.0.1/web/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../parastoo-font-v2.0.1/web/Parastoo-Bold.woff2') format('woff2'),
+         url('../parastoo-font-v2.0.1/web/Parastoo-Bold.woff') format('woff'),
+         url('../parastoo-font-v2.0.1/web/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+* {
+    font-family: 'Parastoo', sans-serif !important;
+
+}
+
+
+
+h1 {
+    font-family: 'Parastoo-Bold' !important;
+}
+
+h2 {
+    font-family: 'parastoo-font-v2' !important;
+}
+
+.dropdown-item:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.bi-arrow-up-right-square:hover {
+    color: red;
+}
+
+.img-blog {
+    width: 100%;
+    height: 460px;
+}
+
+.active {
+    color: white !important;
+}
+
+.login {
+    color: #c56cf0;
+}
+
+.register {
+    color: #cd84f1;
+}
+
+.img-blog-detail {
+    width: 1200px;
+    height: 800px;
+}
+
+.img-contact {
+    width: 100%;
+    height: 200px;
+}
+
+/* google map */
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 750%;
+    width: 100%;
+    position: absolute;
+}
+
+/* google map */
+
+.img-login {
+    width: 100%;
+    height: 400px;
+}
+
+.img-cart {
+    width: 200px;
+    height: 200px;
+}
+
+.btn .bi-arrow-left {
+    transition: all ease 0.5s !important;
+}
+
+.btn:hover .bi-arrow-left {
+    padding-right: 20px !important;
+    transition: all ease 0.5s !important;
+}
+
+h2 .bi-arrow-up-left-square {
+    transition: all ease 0.5s !important;
+}
+
+h2:hover .bi-arrow-up-left-square {
+    padding-right: 20px !important;
+    transition: all ease 0.5s !important;
+}
+
+h2 .bi-arrow-up-left-circle-fill {
+    transition: all ease 0.5s !important;
+}
+
+h2:hover .bi-arrow-up-left-circle-fill {
+    padding-right: 20px !important;
+    transition: all ease 0.5s !important;
+}
+
+.dropdown-item {
+    transition: all ease 0.3s;
+}
+
+.dropdown-item::before {
+    transition: all ease 0.3s;
+}
+
+.btn-login-register:hover {
+    background-color: orange !important;
+    color: black !important;
+    transition: all ease-in 0.3s !important;
+}
+
+.btn-outline-success {
+    color: orange !important;
+    border-color: orange !important;
+    transition: all ease-in 0.3s !important;
+
+}
+
+.btn-outline-success:hover {
+    background-color: orange !important;
+    color: black !important;
+    transition: all ease-in 0.3s !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+.re-memeber {
+    background-color: white !important;
+    transition: all ease-in 0.3s !important;
+    padding-left: 3rem;
+}
+
+.re-memeber:checked {
+    background-color: orange !important;
+    transition: all ease-in 0.3s !important;
+}
+
+.my-a .bi-arrow-left {
+    margin-right: 0rem;
+    transition: all ease-in 0.3s;
+}
+
+.my-a:hover .bi-arrow-left {
+    margin-right: 1rem;
+    transition: all ease-in 0.3s;
+}
