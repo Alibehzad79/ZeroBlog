@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Parastoo;
     src: url('../parastoo-font-v2.0.1/web/');
     src: url('../parastoo-font-v2.0.1/web/?#iefix') format('embedded-opentype'),
@@ -16,10 +16,15 @@
          url('../parastoo-font-v2.0.1/web/Parastoo-Bold.woff') format('woff'),
          url('../parastoo-font-v2.0.1/web/Parastoo-Bold.ttf') format('truetype');
     font-weight: bold;
+  } */
+
+  @font-face {
+      font-family: 'nab';
+      src: url('../font/Nab-Bold.woff');
   }
 
 * {
-    font-family: 'Parastoo', sans-serif !important;
+    font-family: 'nab', sans-serif !important;
 
 }
 
