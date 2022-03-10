@@ -19,12 +19,12 @@
   } */
 
   @font-face {
-      font-family: 'nab';
+      font-family: 'Nab';
       src: url('../font/Nab-Bold.woff');
   }
 
 * {
-    font-family: 'nab', sans-serif !important;
+    font-family: 'Nab', sans-serif !important;
 
 }
 
